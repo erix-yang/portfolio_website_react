@@ -11,17 +11,17 @@ const changeLanguage = () => {
 
 <template>
   <nav class="navbar">
-    <div class="logo">{{ t('logo') }}</div>
+    <div class="logo">{{ t('nav.logo') }}</div>
     <div class="nav-container">
       <ul class="nav-links">
-        <li><a href="#home">{{ t('home') }}</a></li>
-        <li><a href="#skills">{{ t('skills') }}</a></li>
-        <li><a href="#projects">{{ t('projects') }}</a></li>
-        <li><a href="#experience">{{ t('experience') }}</a></li>
-        <li><a href="#more">{{ t('more') }}</a></li>
+        <li><a href="#home">{{ t('nav.home') }}</a></li>
+        <li><a href="#skills">{{ t('nav.skills') }}</a></li>
+        <li><a href="#projects">{{ t('nav.projects') }}</a></li>
+        <li><a href="#experience">{{ t('nav.experience') }}</a></li>
+        <li><a href="#more">{{ t('nav.more') }}</a></li>
       </ul>
       <div class="language-dropdown">
-        <button @click="changeLanguage">{{ t('language') }}</button>
+        <button @click="changeLanguage">{{ t('nav.language') }}</button>
       </div>
     </div>
   </nav>
@@ -34,10 +34,7 @@ const changeLanguage = () => {
   align-items: center;
   padding: 35px 120px;
   width: 100%;
-  background: transparent;
-  position: fixed;
-  top: 0;
-  left: 0;
+  background-color: transparent;
   z-index: 1000;
 }
 
