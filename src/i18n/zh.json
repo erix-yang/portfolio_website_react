@@ -1,3 +1,9 @@
 {
-  "hello": "你好"
+  "logo": "MAX_COSMOS",
+  "home": "主页",
+  "skills": "技能",
+  "projects": "项目",
+  "experience": "经历",
+  "more": "更多",
+  "language": "English"
 }

@@ -1,3 +1,9 @@
 {
-  "hello": "hello"
+  "logo": "MAX_COSMOS",
+  "home": "Home",
+  "skills": "Skills",
+  "projects": "Projects",
+  "experience": "Experience",
+  "more": "More",
+  "language": "中文"
 }

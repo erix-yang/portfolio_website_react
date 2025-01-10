@@ -4,6 +4,8 @@ import 'reset-css/reset.css';
 import router from './router';
 import i18n from './i18n'
 
+import './style.css'
+
 
 const app = createApp(App);
 
