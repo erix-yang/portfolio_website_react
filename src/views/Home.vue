@@ -21,6 +21,10 @@ const getTransformStyle = () => {
     transform: `translate(${offsetX}px, ${offsetY}px)`,
   };
 };
+
+const openLink = (url) => {
+  window.open(url, '_blank');
+}
 </script>
 
 <template>
@@ -45,15 +49,14 @@ const getTransformStyle = () => {
         {{ t('homeContent.pursuit2[4]') }} | {{ t('homeContent.pursuit2[5]') }}
       </p>
       <div class="social-links">
-        <button class="social-btn" @click="window.open('https://twitter.com', '_blank')">
+        <button class="social-btn" @click="openLink('https://twitter.com')">
           {{ t('homeContent.socialLinks.wechat') }}
         </button>
-        <button class="social-btn" @click="window.open('https://github.com', '_blank')">QQ</button>
-        <button class="social-btn" @click="window.open('https://linkedin.com', '_blank')">CSDN</button>
+        <button class="social-btn" @click="openLink('https://github.com')">QQ</button>
+        <button class="social-btn" @click="openLink('https://blog.csdn.net/MaxCosmos2001')">CSDN</button>
       </div>
     </div>
     <div class="right-side">
-      <!-- 动态绑定transform样式 -->
       <img :style="getTransformStyle()" alt="头像" class="avatar" src="../assets/SolarSystemHead.png"/>
     </div>
   </div>

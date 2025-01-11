@@ -14,11 +14,21 @@ const changeLanguage = () => {
     <div class="logo">{{ t('nav.logo') }}</div>
     <div class="nav-container">
       <ul class="nav-links">
-        <li><a href="#home">{{ t('nav.home') }}</a></li>
-        <li><a href="#skills">{{ t('nav.skills') }}</a></li>
-        <li><a href="#projects">{{ t('nav.projects') }}</a></li>
-        <li><a href="#experience">{{ t('nav.experience') }}</a></li>
-        <li><a href="#more">{{ t('nav.more') }}</a></li>
+        <li>
+          <router-link to="/">{{ t('nav.home') }}</router-link>
+        </li>
+        <li>
+          <router-link to="/skills">{{ t('nav.skills') }}</router-link>
+        </li>
+        <li>
+          <router-link to="/projects">{{ t('nav.projects') }}</router-link>
+        </li>
+        <li>
+          <router-link to="/experience">{{ t('nav.experience') }}</router-link>
+        </li>
+        <li>
+          <router-link to="/more">{{ t('nav.more') }}</router-link>
+        </li>
       </ul>
       <div class="language-dropdown">
         <button @click="changeLanguage">{{ t('nav.language') }}</button>
