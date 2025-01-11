@@ -234,8 +234,8 @@ const openLink = (url) => {
 }
 
 .avatar {
-  width: 40vh;
-  height: 40vh;
+  width: 50vh;
+  height: 50vh;
   border-radius: 50%;
   object-fit: cover;
   transition: transform 0.1s ease;
