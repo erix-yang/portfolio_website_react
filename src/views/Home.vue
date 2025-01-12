@@ -239,5 +239,6 @@ const openLink = (url) => {
   border-radius: 50%;
   object-fit: cover;
   transition: transform 0.1s ease;
+  box-shadow: 0 0 30px rgb(248, 216, 65);
 }
 </style>
