@@ -9,7 +9,7 @@ const routes = [
         name: 'Home',
         component: Home,
         meta: {
-            title: 'MaxCosmos | 主页',
+            title: 'Solar | 主页',
         }
     }
 ];

@@ -1,6 +1,6 @@
 {
   "nav": {
-    "logo": "MAX_COSMOS",
+    "logo": "SOLAR",
     "home": "Home",
     "skills": "Skills",
     "projects": "Projects",
@@ -9,7 +9,7 @@
     "language": "中文"
   },
   "homeContent": {
-    "name": "MaxCosmos",
+    "name": "Leo",
     "profession": "Java Backend Developer",
     "description": [
       "Computer Enthusiast",
